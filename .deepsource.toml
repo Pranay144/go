@@ -1,13 +1,5 @@
-version = 1
+ version = 1
 
-test_patterns = [
-  "*/test/**",
-  "test/run.go"
-]
-
-[[analyzers]]
-name = "go"
-enabled = true
-
-  [analyzers.meta]
-  import_path = "github.com/Pranay144/go"
+ [[analyzers]]
+ name = "go"
+ enabled = true
